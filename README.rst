@@ -123,9 +123,9 @@ Dictionary
     {'Mouser': 'Tabby',
      'Whiskers': 'Maine Coon'}
 
-  The *keys* in this dictionary are ```'Mouser'``` and
-  ```'Whiskers'```. The *values* are ```'Tabby'``` and
-  ```'Maine Coon'```. Dictionaries are used to 'look
+  The *keys* in this dictionary are ``'Mouser'`` and
+  ``'Whiskers'``. The *values* are ``'Tabby'`` and
+  ``'Maine Coon'``. Dictionaries are used to 'look
   up' values by their keys:
 
   ::
@@ -150,7 +150,7 @@ Dictionary
 
 
   The word 'dictionary' is frequently shortened
-  to 'dict'. ```dict``` can also be used to create
+  to 'dict'. ``dict`` can also be used to create
   dictionaries in Python
 
   ::
@@ -162,8 +162,8 @@ Dictionary
     cats = {'Mouser': 'Tabby', 'Whiskers': 'Maine Coon',
             'Fafnir': 'Sphinx'}
 
-  Note that when making a dictionary with ```dict```, you use
-  ```=``` instead of ```:``` to separate keys and values, and
+  Note that when making a dictionary with ``dict``, you use
+  ``=`` instead of ``:`` to separate keys and values, and
   **do not** put quotes around keys.
 
 
