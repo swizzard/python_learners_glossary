@@ -112,6 +112,67 @@ Set
   will *not* necessarily remember what order they came
   in, and each value_ can only appear in the set once.
 
+.. _dict:
+
+Dictionary
+  A structure that stores relationships between pairs of
+  values. Like a real dictionary, they are used to 'look
+  up' information about something by referencing its name
+  or another identifier.
+
+  ::
+
+    {'Mouser': 'Tabby',
+     'Whiskers': 'Maine Coon'}
+
+ The *keys* in this dictionary are ```'Mouser'``` and
+ ```'Whiskers'```. The *values* are ```'Tabby'``` and
+ ```'Maine Coon'```. Dictionaries are used to 'look
+ up' values by their keys:
+
+  ::
+
+    cats = {'Mouser': 'Tabby',
+            'Whiskers': 'Maine Coon'}
+    cats['Mouser']  # Evaluates to 'Tabby'
+
+  Keys and values can be added or changed:
+
+  ::
+
+    cats = {'Mouser', 'Tabby',
+            'Whiskers': 'Maine Coon'}
+    cats['Fafnir'] = 'Sphinx'
+    cats['Mouser'] = 'Persian'
+
+    # equivalent to
+    cats = {'Mouser': 'Persian',
+            'Whiskers': 'Maine Coon',
+            'Fafnir': 'Sphinx'}
+
+
+  The word 'dictionary' is frequently shortened
+  to 'dict'. ```dict``` can also be used to create
+  dictionaries in Python
+
+  ::
+
+    cats = dict(Mouser='Tabby', Whiskers='Maine Coon',
+                Fafnir='Sphinx')
+
+    # equivalent to
+    cats = {'Mouser': 'Tabby', 'Whiskers': 'Maine Coon',
+            'Fafnir': 'Sphinx'}
+
+  Note that when making a dictionary with ```dict```, you use
+  ```=``` instead of ```:``` to separate keys and values, and
+  **do not** put quotes around keys.
+
+
+  Dictionaries are also known as 'hash tables', 'hash maps',
+  or just 'maps'. 
+
+
 Functions
 ---------
 
