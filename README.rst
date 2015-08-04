@@ -116,7 +116,9 @@ Dictionary
   A structure that stores relationships between pairs of
   values. Like a real dictionary, they are used to 'look
   up' information about something by referencing its name
-  or another identifier.
+  or another identifier. Dictionaries can be created by
+  listing keys and values separated by colons (``:``),
+  with everything wrapped in curly braces (``{``, ``}``):
 
   ::
 
