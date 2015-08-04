@@ -112,8 +112,6 @@ Set
   will *not* necessarily remember what order they came
   in, and each value_ can only appear in the set once.
 
-.. _dict:
-
 Dictionary
   A structure that stores relationships between pairs of
   values. Like a real dictionary, they are used to 'look
@@ -125,10 +123,10 @@ Dictionary
     {'Mouser': 'Tabby',
      'Whiskers': 'Maine Coon'}
 
- The *keys* in this dictionary are ```'Mouser'``` and
- ```'Whiskers'```. The *values* are ```'Tabby'``` and
- ```'Maine Coon'```. Dictionaries are used to 'look
- up' values by their keys:
+  The *keys* in this dictionary are ```'Mouser'``` and
+  ```'Whiskers'```. The *values* are ```'Tabby'``` and
+  ```'Maine Coon'```. Dictionaries are used to 'look
+  up' values by their keys:
 
   ::
 
